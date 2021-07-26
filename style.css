@@ -1,0 +1,192 @@
+:root{
+    --Cyan:hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+    background-color:var(--light-gray);
+    display:flex;
+    flex-direction: column;
+  
+}
+
+.container{
+    margin: 50px 20px;
+
+}
+
+main, section {
+    padding: 30px 20px;
+}
+
+main{
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+main h1{
+    color: var(--Cyan);
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+main h2{
+    color: var(--bright-yellow);
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+main p{
+    color: var(--grayish-blue);
+    font-size:15px;
+    line-height:2em;
+}
+
+section{
+    color:white;
+}
+
+.subscription{
+    background-color:var(--Cyan);
+}
+
+.subscription h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.price{
+    font-size: 40px;
+    margin-right:20px;
+   
+}
+
+.pricepermonth{
+    display: flex;
+    flex-direction: row;
+}
+
+.permonth{
+    margin-top:15px;
+    opacity:0.5;
+}
+
+.access{
+    margin: 5px 0 30px 0;
+    opacity: 0.7;
+}
+
+
+
+button{
+    background-color: var(--bright-yellow);
+    color:white;
+    font-size:16px;
+    font-weight: 700;
+    border-radius: 5px;
+    border:0;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgb(36, 160, 158);
+   
+}
+
+.whyus{
+    background-color:hsla(179, 62%, 43%,0.8);
+    
+    border-radius: 0px 0px 5px 5px;
+}
+
+.whyus h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin-bottom: 5px;
+    opacity: 0.6;
+
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+    
+    @media (min-width: 720px){
+        body{
+            align-items: center;
+            justify-content: center;
+            }
+        
+
+        .container{
+            width:70%;
+        }
+
+        .intro, .subscription, .whyus{
+            padding:30px;
+        }
+        main h1{
+            font-size: 26px;
+        }
+
+        main h2{
+            font-size:22px;
+        }
+
+        main p{
+            font-size:19px;
+        }
+
+        .section{
+           display:flex;
+           flex-direction: row;
+          
+        }
+        .subscription{
+            width:50%;
+            border-radius: 0 0 0 5px;
+        }
+
+        button{
+            width: 90%;
+            margin-left:5%;
+        }
+
+        .whyus{
+            width: 50%;
+            border-radius: 0 0 5px 0;
+        }
+    }
+    
+    @media (min-width: 992px){
+        
+        .container{
+            width:50%;
+        }
+        .intro, .subscription, .whyus{
+            padding:40px;
+        }
+    }
