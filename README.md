@@ -1,7 +1,6 @@
 # Frontend Mentor -Single price grid component
 <img src="https://github.com/Yuko-code/Yuko-code/blob/main/single-priced.png" width="900">
-This is a solution to the [Single price grid component]
-(https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/single-price-grid-component-ZVuEVFKDc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/single-price-grid-component-ZVuEVFKDc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
 
